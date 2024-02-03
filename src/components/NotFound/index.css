@@ -1,0 +1,50 @@
+.notfound-container {
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+@media screen and (min-width: 768px) {
+  .notfound-container {
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+}
+.notfound-img {
+  width: 60%;
+}
+@media screen and (min-width: 768px) {
+  .notfound-img {
+    width: 30%;
+  }
+}
+.notfound-head {
+  color: #fff;
+  font-family: 'Roboto';
+  font-size: 24px;
+}
+@media screen and (min-width: 768px) {
+  .notfound-head {
+    font-size: 42px;
+  }
+}
+.notfound-para {
+  color: #7e858e;
+  font-family: 'Roboto';
+  font-size: 12px;
+  margin-top: 0px;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .notfound-para {
+    font-size: 16px;
+  }
+}
